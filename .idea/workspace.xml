@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e12026d-2456-4e0a-8172-811264321b90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jquIB1K6FADSgeJzYIOlcIZM3i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demos/hello" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Python.Run hello">
+    <configuration name="Run hello " type="PythonConfigurationType" factoryName="Python">
+      <module name="flaskstudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\iron\.virtualenvs\flaskstudy--ko5BypJ\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos/hello" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="flask" />
+      <option name="PARAMETERS" value="run--host=0.0.0.0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run hello" type="PythonConfigurationType" factoryName="Python">
+      <module name="flaskstudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\iron\.virtualenvs\flaskstudy--ko5BypJ\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos/hello" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="flask" />
+      <option name="PARAMETERS" value="run" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Run hello" />
+      <item itemvalue="Python.Run hello " />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e12026d-2456-4e0a-8172-811264321b90" name="Default Changelist" comment="" />
+      <created>1604543861292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604543861292</updated>
+    </task>
+    <task id="LOCAL-00001" summary="shiyixia">
+      <created>1604547818301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604547818301</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1106早上">
+      <created>1604627332267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604627332267</updated>
+    </task>
+    <task id="LOCAL-00003" summary="1106早上">
+      <created>1604627450463</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604627450463</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="shiyixia" />
+    <MESSAGE value="1106早上" />
+    <option name="LAST_COMMIT_MESSAGE" value="1106早上" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="64" y="4" width="1285" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604556779532">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="64" y="4" width="1285" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1604556779532" />
+    <state x="421" y="172" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604547488492">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="421" y="172" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1604547488492" />
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1604627844339">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1604627844339" />
+    <state x="438" y="123" key="EnvironmentVariablesDialog" timestamp="1604556507039">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="438" y="123" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604556507039" />
+    <state x="615" y="126" key="FileChooserDialogImpl" timestamp="1604556289286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="615" y="126" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1604556289286" />
+    <state width="1037" height="304" key="GridCell.Tab.0.bottom" timestamp="1604558551029">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1037" height="304" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604558551029" />
+    <state width="1037" height="304" key="GridCell.Tab.0.center" timestamp="1604558551028">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1037" height="304" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604558551028" />
+    <state width="1037" height="304" key="GridCell.Tab.0.left" timestamp="1604558551028">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1037" height="304" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604558551028" />
+    <state width="1037" height="304" key="GridCell.Tab.0.right" timestamp="1604558551029">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1037" height="304" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604558551029" />
+    <state x="186" y="9" key="SettingsEditor" timestamp="1604554760186">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604554760186" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1604627112641">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1604627112641" />
+  </component>
+</project>
