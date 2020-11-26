@@ -1,1 +1,7 @@
 FLASK_ENV=development
+#主机地址
+FLASK_RUN_HOST=0.0.0.0
+
+
+FLASK_RUN_PORT=5000
+

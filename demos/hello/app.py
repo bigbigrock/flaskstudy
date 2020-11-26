@@ -1,11 +1,16 @@
-from flask import Flask
-
+from flask import Flask,url_for
+import click
 app = Flask(__name__)
 
-@app.route('/hello')
-def index():
-    return '<h1>hello hahah </h1>' \
-           '<h1>加油吧<h1>'\
-           '<h1>hahahhahaha</h1>'\
-           '<p>hdhdhdh</p>'
+# @app.route('/')
+# def index():
+#     return "hello flask"
 
+# @app.route('/hello/<name>')
+# def greet(name):
+#     return url_for('greet',name='jack',_external=True)
+
+@app.cli.command('hi')
+def helloo():
+    """just say hello"""
+    click.echo('hello,human!')
