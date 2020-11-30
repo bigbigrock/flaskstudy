@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e12026d-2456-4e0a-8172-811264321b90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demos/http/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demos/http/.flaskenv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demos/http/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/hello/.flaskenv" beforeDir="false" afterPath="$PROJECT_DIR$/demos/hello/.flaskenv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demos/hello/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/demos/hello/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/http/.env" beforeDir="false" afterPath="$PROJECT_DIR$/demos/http/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demos/http/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/demos/http/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../helloflask-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.app">
