@@ -1,4 +1,4 @@
-from flask import Flask,request,redirect,url_for,abort,make_response,jsonify,session
+from flask import Flask,request,redirect,url_for,abort,make_response,jsonify
 import os
 
 app = Flask(__name__)
@@ -65,6 +65,7 @@ app = Flask(__name__)
 #     response.set_cookie('name',name)
 #     return response
 
+
 app.secret_key = os.getenv('SECRET_KEY','secret string')
 
 @app.route('/login')
@@ -87,7 +88,40 @@ def hello():
         response += '[Not Authenticated]'
     return response
 
+#模拟管理后台
+# from flask import session,abort
+# @app.route('/admin')
+# def admin():
+#     if 'logged_in' not in session:
+#         abort(403)
+#     return 'Welcome to admin page'
 
+#登出用户
+# from flask import session
+# @app.route('/logout')
+# def logout():
+#     if 'logged_in' in session:
+#         session.pop('logged_in')
+#     return redirect(url_for('hello'))
+
+
+@app.route('/foo')
+def foo():
+    return '<h1>Foo page</h1><a href="%s">Do something and redirect</a>'%url_for('do_something',next=request.full_path)
+@app.route('/bar')
+def bar():
+    return '<h1>Foo page</h1><a href="%s">Do something and redirect</a>'%url_for('do_something',next=request.full_path)
+@app.route('/do_something')
+def do_something():
+    # do something
+    # return redirect(request.referer or url_for('hello'))
+    #  return redirect(request.args.get('next',url_for('hello')))
+    return redirect_back()
+def redirect_back(default='hello',**kwars):
+    for target in request.args.get('next'),request.referer:
+        if target:
+            return redirect(target)
+    return redirect(url_for(default,**kwars))
 
 
 
