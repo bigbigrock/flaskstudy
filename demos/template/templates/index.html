@@ -1,0 +1,24 @@
+{% extends 'base.html'%}  <!-- extends必须是子模板的第一个标签-->
+{% from 'macros.html' import qux%}
+{% from 'macros.html' import static_file%}
+{% block content %}
+{% set name='baz'%}
+<h1>Template</h1>
+<ul>
+    <li><a href="{{url_for('watchlist')}}">Watchlist</a></li>
+    <li>Filter:{{foo|musical}}</li>
+    <li>Global:{{bar()}}</li>
+    <li>Test:{% if name is baz %}I am baz.{% endif %}</li>
+    <li>Macro:{{qux(amount=5)}}</li>
+</ul>
+{% endblock %}
+
+{% block styles%}
+static_file('css','css/bootstrap.mim.css')
+<!--{{super()}}-->
+<!--<style>-->
+<!--.foo{-->
+<!--color:red;-->
+<!--}-->
+<!--</style>-->
+{% endblock %}

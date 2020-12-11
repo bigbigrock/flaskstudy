@@ -105,23 +105,63 @@ def hello():
 #     return redirect(url_for('hello'))
 
 
-@app.route('/foo')
-def foo():
-    return '<h1>Foo page</h1><a href="%s">Do something and redirect</a>'%url_for('do_something',next=request.full_path)
-@app.route('/bar')
-def bar():
-    return '<h1>Foo page</h1><a href="%s">Do something and redirect</a>'%url_for('do_something',next=request.full_path)
-@app.route('/do_something')
-def do_something():
-    # do something
-    # return redirect(request.referer or url_for('hello'))
-    #  return redirect(request.args.get('next',url_for('hello')))
-    return redirect_back()
-def redirect_back(default='hello',**kwars):
-    for target in request.args.get('next'),request.referer:
-        if target:
-            return redirect(target)
-    return redirect(url_for(default,**kwars))
+# @app.route('/foo')
+# def foo():
+#     return '<h1>Foo page</h1><a href="%s">Do something and redirect</a>'%url_for('do_something',next=request.full_path)
 
+# @app.route('/bar')
+# def bar():
+#     return '<h1>Foo page</h1><a href="%s">Do something and redirect</a>'%url_for('do_something',next=request.full_path)
 
+# @app.route('/do_something_and_redirect')
+# def do_something():
+#     # do something
+#     # return redirect(request.referer or url_for('hello'))
+#     #  return redirect(request.args.get('next',url_for('hello')))
+#     return redirect_back()
+#
+# def redirect_back(default='hello',**kwars):
+#     for target in request.args.get('next'),request.referer:
+#         if not target:
+#             continue
+#         if is_safe_url(target):
+#             return redirect(target)
+#     return redirect(url_for(default,**kwars))
+#
+# #验证URL安全性
+# from urllib.parse import urlparse,urljoin
+# from flask import request
+# def is_safe_url(target):#接收目标URL作为参数
+#     ref_url = urlparse(request.host_url)#request.host_url获取程序内的主机URL
+#     test_url = urlparse(urljoin(request.hosturl,target))#urljoin将目标URL转换为绝对URL。
+#     return test_url.scheme in('http','https')and ref_url.netloc == test_url.netloc#对目标URL的URL模式和主机地址进行验证。
+
+#纯文本或局部HTML模板
+
+from jinja2.utils import generate_lorem_ipsum
+@app.route('/post')
+def show_post():
+    post_body = generate_lorem_ipsum(n=5)
+    return """
+    <h1>A very long post</h1>
+    <div class="body">%s</div>
+    <button id="load">Load More</button>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+    $(function(){
+    $('#load').click(function(){//$('#load')被称为选择器，括号中传入目标元素的id、class或是其他属性来定位到对应的元素
+    $.ajax({
+    url:'/more',//目标URL
+    type:'get',//请求方法
+    sucess:function(data){//返回2xx响应后触发的回调函数
+    $('.body').append(data);//将返回的响应插入到页面中
+    }
+    })
+    })
+    })
+    </script>"""%post_body
+
+@app.route('/more')
+def load_post():
+    return generate_lorem_ipsum(n=1)
 

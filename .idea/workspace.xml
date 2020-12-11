@@ -2,6 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e12026d-2456-4e0a-8172-811264321b90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demos/form/.flaskenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/form/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/form/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/form/html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/form/templates/basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/form/templates/bootstrap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/form/templates/ma.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/form/templates/macros.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/template/.flaskenv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/template/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/template/static/avatar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/template/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/template/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/template/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/template/templates/errors/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/template/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/template/templates/macros.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/template/templates/watchlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demos/template/templates/watchlist2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/flaskstudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/flaskstudy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
@@ -19,6 +39,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -26,17 +47,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jquIB1K6FADSgeJzYIOlcIZM3i" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demos/form" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.app">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\flaskstudy\demos\form" />
+      <recent name="E:\flaskstudy\demos\template\static" />
+      <recent name="E:\flaskstudy\demos\template\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\flaskstudy\demos\template\static" />
+      <recent name="E:\flaskstudy\demos\template\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.forms">
     <configuration name="Run hello " type="PythonConfigurationType" factoryName="Python">
       <module name="flaskstudy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,13 +136,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="forms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="flaskstudy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/demos/form" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demos/form/forms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Run hello " />
       <item itemvalue="Python.Run hello" />
       <item itemvalue="Python.app" />
+      <item itemvalue="Python.forms" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.forms" />
         <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
@@ -181,40 +240,44 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="438" y="123" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1604556507039" />
-    <state x="615" y="126" key="FileChooserDialogImpl" timestamp="1606359006504">
+    <state x="615" y="126" key="FileChooserDialogImpl" timestamp="1607581855304">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="615" y="126" key="FileChooserDialogImpl/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1606359006504" />
+    <state x="615" y="126" key="FileChooserDialogImpl/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1607581855304" />
     <state x="615" y="126" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605146389103" />
-    <state width="1345" height="162" key="GridCell.Tab.0.bottom" timestamp="1606213597298">
+    <state width="1345" height="186" key="GridCell.Tab.0.bottom" timestamp="1607683394632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1606213597298" />
+    <state width="1345" height="186" key="GridCell.Tab.0.bottom/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1607683394632" />
     <state width="1037" height="304" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1604558551029" />
-    <state width="1345" height="162" key="GridCell.Tab.0.center" timestamp="1606213597297">
+    <state width="1345" height="186" key="GridCell.Tab.0.center" timestamp="1607683394632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="162" key="GridCell.Tab.0.center/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1606213597297" />
+    <state width="1345" height="186" key="GridCell.Tab.0.center/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1607683394632" />
     <state width="1037" height="304" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1604558551028" />
-    <state width="1345" height="162" key="GridCell.Tab.0.left" timestamp="1606213597297">
+    <state width="1345" height="186" key="GridCell.Tab.0.left" timestamp="1607683394632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="162" key="GridCell.Tab.0.left/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1606213597297" />
+    <state width="1345" height="186" key="GridCell.Tab.0.left/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1607683394632" />
     <state width="1037" height="304" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1604558551028" />
-    <state width="1345" height="162" key="GridCell.Tab.0.right" timestamp="1606213597298">
+    <state width="1345" height="186" key="GridCell.Tab.0.right" timestamp="1607683394632">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="162" key="GridCell.Tab.0.right/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1606213597298" />
+    <state width="1345" height="186" key="GridCell.Tab.0.right/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1607683394632" />
     <state width="1037" height="304" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1604558551029" />
     <state x="186" y="9" key="SettingsEditor" timestamp="1606186197926">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1606186197926" />
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1604554760186" />
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1606355197670">
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1607581345562">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1606355197670" />
+    <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1607581345562" />
     <state x="375" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1605146369961" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607667221964">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/-93.-1050.1680.1010@0.0.1366.728" timestamp="1607667221964" />
   </component>
 </project>
